@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" 
+    crossorigin="anonymous">
+</header>
+<main>
+<body>
+    <!--navbar section-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">
+                <i class="fas fa-compact-disc"></i> VINYLSTORE 
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page"> Home </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#products" class="navbar__links" id="products-page"> Products </a> 
+                </li>
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="signup"> Sign Up </a> 
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--main section--> 
+    <div class="main" id="home">
+        <div class="main__container">
+            <div class="main__content">
+                <h1 class="main__heading"> Expand your collection today </h1>
+                <button class="main__btn">
+                    <a href="#products">
+                        SHOP
+                    </a>
+                </button>
+            </div>
+            <div class="main__img--container">
+                <img src="images/pic1.jpg" alt="pic1" id="main__img">
+            </div>
+        </div>
+    </div>
+    
+    <!--products-->
+    <div class="products" id="products">
+        <h1>Browse through our catalogue</h1>
+        <div class="products__container">
+            <div class="products__card">
+                <h2>CDs</h2>
+                <button>SHOP</button>
+            </div>
+            <div class="products__card">
+                <h2>Vinyls</h2>
+                <button>SHOP</button>
+            </div>
+            <div class="products__card">
+                <h2>Gear</h2>
+                <button>SHOP</button>
+            </div>
+        </div>
+    </div>
+</main>
+
+    <!--footer-->
+    <footer>
+        <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__link--wrapper">
+                    <div class="footer__link--items">
+                        <h2>About Us</h2>
+                        <a href="/">Shops in your area</a>
+                        <a href="/">Testimonials</a>
+                    </div>
+                    <div class="footer__link--items">
+                        <h2>Contact Us</h2>
+                        <a href="/">Instagram</a>
+                        <a href="/">Twitter</a>
+                        <a href="/">Email</a>
+                        <a href="/">Facebook</a>
+                    </div>
+                </div>  
+            </div>
+            <div class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo"><i class="fas fa-compact-disc"></i>VINYLSTORE</a>
+                        <p class="website__rights"> &reg VINYLSTORE 2021. All rights reserved.</p>
+                    </div>
+                    <div class="social__icons">
+                        <div class="dropdown" id="fb">
+                            <a href="/" class="social__icon--link" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <div class="dropdown-content" id="dropdown">
+                            <p>Visit our facebook page</p>
+                            </div>
+                        </div>
+                        <div class="dropdown" id="ig">
+                            <a href="/" class="social__icon--link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <div class="dropdown-content" id="dropdown">
+                            <p>Visit our instagram page</p>
+                            </div>
+                        </div>
+                        <div class="dropdown" id="tw">
+                            <a href="/" class="social__icon--link" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <div class="dropdown-content" id="dropdown">
+                            <p>Visit our twitter page</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html> 
